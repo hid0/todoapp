@@ -1,0 +1,20 @@
+var mongoose = require('mongoose')
+
+// mendfinisikan koleksi dan skema untuk todo item
+
+var todo = new mongoose.Schema({
+    name: {
+        type: String
+    },
+
+    done: {
+        type: Boolean
+    }
+},
+
+    {
+        collection: 'todos'
+    }
+)
+
+module.exports = mongoose.model('Todo', todo);
