@@ -7,9 +7,9 @@ Todo App with NodeJS, VueJS, MongoDB, ExpressJS
 and next run
 
 
-npm install
+```npm install```
 
 
-npm build
+```npm build```
 
-node server.js
+```node server.js```
